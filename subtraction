@@ -1,0 +1,11 @@
+x = input("Enter  a number: ")
+y = input("Enter another number: ")
+
+sum = int(x) - int(y)
+
+print("The sum is: ", sum)
+
+output:
+Enter  a number: 35
+Enter another number: 23
+The sum is:  12
