@@ -1,0 +1,23 @@
+def get_minvalue(inputlist):
+ 
+    #get the minimum value in the list
+    min_value = min(inputlist)
+ 
+    #return the index of minimum value 
+    min_index=list1.index(min_value)
+    return min_index
+ 
+ 
+if __name__ == "__main__" :
+ 
+    #create and initialize a list
+ 
+    list1 = [23,56,32,89,21,44,51]
+ 
+    list2 = [32,23,56,32,89,41,32,23,44,51,23]
+ 
+    min_list1 = get_minvalue(list1)
+ 
+    print("Index of minimum value is ",min_list1)
+ 
+    min_list2 = get_minvalue(list2)
