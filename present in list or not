@@ -1,0 +1,10 @@
+MyList = ['1','2','3','4','5']
+print("Our List: ", MyList)
+if '3' in MyList:
+ print(" Item '3' is present in the list")
+else:
+ Print(" Item '3' is not present in the list")
+ 
+ output:
+ Our List:  ['1', '2', '3', '4', '5']
+ Item '3' is present in the list
