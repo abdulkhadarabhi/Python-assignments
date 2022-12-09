@@ -1,0 +1,31 @@
+n=int(input('enter the no. of rows :'))
+m=int(input('enter the no. of columns :'))
+matrix=[]
+for i in range(m):
+    c=[]
+    for j in range(n):
+        j=int(input('enter numbers in column :'))
+        c.append(j)
+    print(' ')
+    matrix.append(c)
+for i in range(n):
+    for j in range(m):
+        print(matrix[i][j],end=' ')
+    print( )
+
+output:
+enter the no. of rows :3
+enter the no. of columns :3
+enter numbers in column :9
+enter numbers in column :8
+enter numbers in column :7
+enter numbers in column :6
+enter numbers in column :5
+enter numbers in column :4
+enter numbers in column :3
+enter numbers in column :2
+enter numbers in column :1
+9 8 7 
+6 5 4 
+3 2 1 
+> 
