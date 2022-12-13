@@ -1,0 +1,10 @@
+l=[]
+n=int(input())
+for i in range(n):
+    x=int(input())
+    l.append(x)
+print(l)
+l[0]=30
+l[2]=40
+l[3]=50
+print(l)
