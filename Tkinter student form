@@ -1,0 +1,10 @@
+from tkinter import *
+sd=Tk()
+sd.title("Login form")
+Label(sd,text="Enter user Id").grid(row=0)
+Label(sd,text=" Enter password").grid(row=1)
+Entry(sd).grid(row=0,column=1)
+Entry(sd).grid(row=1,column=1)
+Button(sd,text=" Login").grid(row=2)
+Button(sd,text="Cancel").grid(row=2,column=1)
+mainloop()
